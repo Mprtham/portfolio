@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prathamesh Mishra - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Social Media Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Prathamesh Mishra</h1>
+        <p>Data Scientist | AI Enthusiast | Full Stack Developer</p>
+        <a href="#projects" class="cta-btn">Explore My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <p>
+            Innovative Data Scientist with expertise in machine learning, artificial intelligence, data mining, and 
+predictive analytics. Proven track record in utilizing advanced analytical techniques and data visualization 
+tools to extract actionable insights and drive strategic business decisions. Currently advancing expertise 
+through an MSc in Data Science and AI at the University of Liverpool, focusing on deep learning, natural 
+language processing, and big data technologies. Dedicated to solving complex problems and contributing 
+to technological advancements in dynamic organizations.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">Python</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">TensorFlow</div>
+            <div class="skill">AWS</div>
+            <div class="skill">React</div>
+            <div class="skill">CSS</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3><a href="#!" onclick="toggleDetails('yoga-details')">Yoga with AI</a></h3>
+            <p>Developed a web application incorporating AI to assist users in performing yoga poses.</p>
+            <div id="yoga-details" class="project-details" style="display:none;">
+                <p>
+                    Developed a web application incorporating AI to assist users in performing yoga poses, leading to a 20% increase in user retention and a 30% rise in user satisfaction.
+                </p>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3><a href="#!" onclick="toggleDetails('diet-details')">Diet Tracker</a></h3>
+            <p>Created a Diet Tracker website that helps users monitor diets and track calorie intake.</p>
+            <div id="diet-details" class="project-details" style="display:none;">
+                <p>
+                    Created a Diet Tracker website that helps users monitor diets, track calorie intake, and receive weight management advice, increasing active users by 25% and reducing dietary issues by 15%.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <h2>Professional Experience</h2>
+
+        <div class="experience">
+            <h3>Smallcap AI, London, UK</h3>
+            <p>Data Scientist | 08/2024 – Present</p>
+            <h4>Algorithmic Trading Platform:</h4>
+            <ul>
+                <li>Executed advanced data cleansing techniques, improving data quality by 40%.</li>
+                <li>Developed validation methods that increased model reliability by 30%.</li>
+                <li>Enhanced trading efficiency by 20% through strategy optimization.</li>
+                <li>Constructed matrices to track and analyze model success.</li>
+                <li>Utilized Pandas, NumPy, Scikit-learn, and TensorFlow for various tasks.</li>
+            </ul>
+            <h4>Dental Diagnosis Software:</h4>
+            <ul>
+                <li>Built software that increases diagnostic accuracy to 95% using machine learning.</li>
+                <li>Improved image analysis accuracy by 25% with OpenCV.</li>
+                <li>Achieved a 90% accuracy rate in identifying dental conditions using TensorFlow and Keras.</li>
+                <li>Enhanced specific ailment identification accuracy by 15% with PyTorch.</li>
+                <li>Collaborated with dental professionals to ensure clinical relevance, improving user satisfaction by 20%.</li>
+                <li>Monitored software effectiveness and identified areas for improvement.</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h3>Zotech, Mumbai, India</h3>
+            <p>Data Science and Business Analytics Intern | 07/2022 – 12/2022</p>
+            <ul>
+                <li>Developed a community landing page through web scraping and exploratory data analysis, boosting user engagement by 30% and site traffic by 25%.</li>
+                <li>Created a face recognition web application with 95% accuracy, contributing to $2M in stock investment decisions.</li>
+                <li>Automated data cleaning workflows, reducing preparation time by 50%, and developed Tableau dashboards to enhance decision-making.</li>
+                <li>Conducted A/B testing that optimized marketing strategies, resulting in a 15% increase in conversion rates.</li>
+                <li>Implemented machine learning algorithms to predict customer behavior, enhancing retention by 10%.</li>
+                <li>Maintained data integrity and security through robust database development.</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h3>Sahu Technologies, Mumbai, India</h3>
+            <p>Python Developer | 12/2022 – 04/2023</p>
+            <ul>
+                <li>Developed APIs and GUIs, reducing integration time by 40% and improving performance by 20%.</li>
+                <li>Led projects such as an insurance comparison website and payment gateway, increasing transactions by 25% and reducing costs by 15%.</li>
+                <li>Implemented unit testing protocols, decreasing bugs by 30%, and strengthened security measures, reducing vulnerabilities by 20%.</li>
+                <li>Engineered scalable backend systems capable of handling a 50% increase in user load.</li>
+                <li>Collaborated with clients to gather requirements and deliver tailored solutions.</li>
+                <li>Optimized data processing speeds by 35% through refined code and algorithms.</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h3>Oasis Infobyte, Mumbai, India</h3>
+            <p>Java Developer | 02/2022 – 04/2022</p>
+            <ul>
+                <li>Managed projects for ATM interfaces, educational games, and website landing pages, improving customer satisfaction by 15% and reducing delivery times by 20%.</li>
+                <li>Integrated third-party APIs to enhance user experience and implemented agile methodologies, accelerating delivery speed by 25%.</li>
+                <li>Designed and developed multi-threaded applications, boosting system responsiveness by 40%.</li>
+                <li>Conducted peer code reviews, leading to a 20% reduction in errors and improved code quality.</li>
+                <li>Provided technical support and troubleshooting, cutting downtime by 30%.</li>
+            </ul>
+        </div>
+
+        <div class="experience">
+            <h3>Abacus Educare, Mumbai, India</h3>
+            <p>Embedded System Intern | 06/2022 – 08/2022</p>
+            <ul>
+                <li>Optimized mechanisms for displays and IoT devices, achieving a 35% increase in efficiency.</li>
+                <li>Delivered projects like a dot matrix monitor and temperature controller, reducing maintenance costs by 25% and enhancing reliability by 20%.</li>
+                <li>Designed and implemented firmware updates that improved device performance and stability.</li>
+                <li>Collaborated with hardware engineers to integrate new features, leading to a 15% boost in product capabilities.</li>
+                <li>Conducted performance testing and validation, ensuring compliance with industry standards.</li>
+                <li>Developed real-time monitoring systems to improve data accuracy and system reliability.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <h2>Contact Me</h2>
+    <div class="contact-details">
+        <a href="mailto:mprathamesh2023@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i> mprathamesh2023@gmail.com
+        </a>
+        <a href="tel:+447748999614">
+            <i class="fas fa-phone"></i> +44 7748999614
+        </a>
+        <a href="https://linkedin.com/in/prathamesh-mishra-9a8b36212" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/Mprtham" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://medium.com/@mishraprathamesh2303" target="_blank">
+            <i class="fab fa-medium"></i> Medium
+        </a>
+    </div>
+    <form id="contactForm" class="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
